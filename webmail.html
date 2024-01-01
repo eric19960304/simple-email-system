@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>Simple Webmail</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    
+	
+
+</head>
+<body>
+
+
+    <div id="heading" class="division">
+        <h1 id="title">Simple Webmail</h1>
+    </div>
+    <div id="function" class="division">
+            <input id="delete" type="button" value="Delete" class="button-normal pure-button"/>
+            <input id="move2inbox" type="button" value="Move to Inbox" class="button-success pure-button"/>
+            <input id="move2important" type="button" value="Move to Important" class="button-secondary pure-button"/>
+            <input id="lastpage" type="button" value="<" class="button-arrow pure-button"/>
+            <input id="nextpage" type="button" value=">" class="button-arrow pure-button"/>
+    </div>
+    <div id="mailbox" class="division">
+        <div id="inbox" class="current">
+            <a>Inbox</a>
+        </div>
+        <div id="important" class="noncurrent">
+            <a>Important</a>
+        </div>
+        <div id="trash"  class="noncurrent">
+            <a>Trash</a>
+        </div>
+
+    </div>
+    <div id="email" class="division">
+        	<div id="records"></div>
+    </div>
+
+
+</body>
+
+</html>

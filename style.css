@@ -1,0 +1,429 @@
+.division{
+    border: 1px solid black;
+}
+
+.current{
+    color: black;
+    background-color: rgb(189, 189, 189);
+}
+
+.noncurrent{
+    color: rgb(255, 255, 255);
+    background-color: rgb(85, 85, 85);
+}
+
+#heading{
+    width: 1200px;
+    height: 100px;
+    background-color: rgb(44, 150, 35);
+    text-align: center;
+}
+
+#function{
+    width: 1200px;
+    height: 50px;
+    background-color: rgb(146, 98, 41);
+}
+
+#mailbox{
+    width: 150px;
+    height: 600px;
+    float: left;
+}
+
+#email{
+    width: 1200px;
+    height: 600px;
+    text-align: center;
+}
+
+#title{
+    text-align: center;
+}
+
+#function{
+    text-align: right;
+}
+
+
+#delete{
+    margin-right: 50px;
+    width: 150px;
+}
+#move2inbox{
+    margin-right: 50px;
+    visibility: hidden;
+}
+#move2important{
+    margin-right: 50px;
+}
+#nextpage{
+    margin-right: 15px; 
+}
+#lastpage{
+    margin-right: 5px; 
+}
+
+#mailbox{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(146, 98, 41);
+}
+
+#mailbox div{
+    height: 80px;
+    display: block;   
+}
+
+#mailbox div a{
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding-top: 30px;
+    pointer-events: none;
+}
+
+#mailbox div:hover{
+    background-color: rgb(189, 189, 189);
+    
+}
+
+#records{
+	height: 600px;
+}
+
+.record{
+	display: block;
+	width: 1200px;
+	line-height: 58px;
+	border: 1px outset black;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.title{
+	font-weight: bold;
+}
+
+.date{
+	font-style: italic;
+}
+
+
+.record:hover{
+	background-color: rgb(167, 167, 167);
+}
+
+.checkbox {
+    display: inline-block;
+    width: 30px;
+}
+.sender{
+	padding-left: 80px;
+}
+
+.sender, .title, .date {
+	pointer-events: none;
+	display: inline-block;
+    width: 25%;
+    text-align: center;
+}
+
+#emailContentTable{
+	margin-top: 50px;
+	margin-left: 0px;
+}
+
+#emailContentTable tr{
+	height: 50px;
+	line-height: 50px;
+}
+
+#back{
+	margin-top: 30px;
+}
+
+.button-success,
+.button-error,
+.button-normal,
+.button-secondary,
+.button-arrow {
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.button-success {
+    background: rgb(28, 184, 65); /* this is a green */
+}
+
+.button-error {
+    background: rgb(202, 60, 60); /* this is a maroon */
+}
+
+.button-normal {
+    background: rgb(223, 117, 20); /* this is an orange */
+}
+
+.button-secondary {
+    background: rgb(66, 184, 221); /* this is a light blue */
+}
+
+.button-arrow {
+    background: rgb(129, 129, 129); /* this is a light blue */
+}
+
+
+h1 {
+    font-family: Comic Sans MS;
+    color: rgb(255, 255, 255);
+    font-size: 35;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+a{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+input[type='checkbox']:after{
+    line-height: 1.5em;
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: -4px;
+    margin-left: -4px;
+    border: 1px solid;
+    border-radius: 0.25em;
+    background: rgb(172, 172, 172);
+}
+
+input[type='checkbox']:checked:after {
+    background: rgb(28, 184, 65);
+    
+}
+
+
+@media only screen and (max-width: 1200px) and (min-width: 615px){
+
+	#heading{
+    width: 99%;
+    height: 100px;
+    background-color: rgb(44, 150, 35);
+    text-align: center;
+	}
+
+	#function{
+		width: 99%;
+		height: 50px;
+		background-color: rgb(146, 98, 41);
+	}
+
+	#mailbox{
+		width: 20%;
+		height: 1000px;
+		float: left;
+	}
+
+	#email{
+		width: 99%;
+		height: 1000px;
+		text-align: center;
+	}
+	
+	#records{
+	height: 1000px;
+	}
+
+	
+	
+	#delete{
+    margin-right: 20px;
+    width: 150px;
+	}
+	
+	#move2inbox{
+		margin-right: 10px;
+		visibility: hidden;
+	}
+	#move2important{
+		margin-right: 10px;
+	}
+	#nextpage{
+		margin-right: 5px; 
+	}
+	#lastpage{
+		margin-right: 5px; 
+	}
+
+	#mailbox{
+		font-size: 12px;
+		font-weight: bold;
+		background-color: rgb(146, 98, 41);
+	}
+	
+	
+	.record{
+		display: block;
+		width: 100%;
+		height: 98px;
+		line-height: 100%;
+		border: 1px outset black;
+		text-align: center;
+	}
+
+	.record:hover{
+		background-color: rgb(167, 167, 167);
+	}
+	
+	.checkbox{
+		padding-top: 10px;
+		padding-left: 10px;
+		float: left;
+	}
+
+	.sender, .title, .date {
+		padding-left: 10px;
+		display: inline-flex;
+		pointer-events: none;
+		padding-top: 10px;
+	}
+	.title, .date{
+		width: 78%;
+		display:table;
+	}
+
+
+	#emailContentTable{
+		margin-top: 50px;
+		margin-left: 0px;
+	}
+
+	#emailContentTable tr{
+		height: 50px;
+		line-height: 50px;
+	}
+
+	#back{
+		margin-top: 30px;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 615px){
+	#heading{
+    		width: 99%;
+    		height: 100px;
+    		background-color: rgb(44, 150, 35);
+    		text-align: center;
+	}
+
+	#function{
+		width: 99%;
+		height: 180px;
+		background-color: rgb(146, 98, 41);
+	}
+	
+	#delete, #move2inbox, #move2important{
+		white-space: normal;
+		display: block;
+	}
+
+
+	#mailbox{
+		width: 99%;
+		height: 250px;
+		display: block;
+		float: none;
+	}
+
+	#email{
+		width: 99%;
+		height: 1120px;
+		text-align: center;
+		display: block;
+	}
+	
+	#records{
+		height: 1120px;
+	}
+
+	
+	
+	#delete{
+    		margin-right: 20px;
+    		width: 150px;
+	}
+	
+	#move2inbox{
+		margin-right: 10px;
+		visibility: hidden;
+	}
+	#move2important{
+		margin-right: 10px;
+	}
+	#nextpage{
+		margin-right: 5px; 
+	}
+	#lastpage{
+		margin-right: 5px; 
+	}
+
+	#mailbox{
+		font-size: 12px;
+		font-weight: bold;
+		background-color: rgb(146, 98, 41);
+	}
+	
+	
+	
+	
+	.record{
+		display: block;
+		width: 100%;
+		height: 110px;
+		line-height: 100%;
+		border: 1px outset black;
+	}
+
+	.record:hover{
+		background-color: rgb(167, 167, 167);
+	}
+	
+	.checkbox{
+		margin-top: 8px;
+		margin-bottom: 8;
+		padding-left: 0px;
+		display:inline-block;
+		float: none;
+	}
+
+	.sender, .title, .date {
+		padding-left: 0px;
+		display:block;
+		pointer-events: none;
+		width: 100%;
+		padding-top: 10px;
+		float: none;
+	}
+
+	#emailContentTable{
+		margin-top: 50px;
+		margin-left: 0px;
+	}
+
+	#emailContentTable tr{
+		height: 50px;
+		line-height: 50px;
+	}
+
+	#back{
+		margin-top: 30px;
+	}
+}
+	
+}
